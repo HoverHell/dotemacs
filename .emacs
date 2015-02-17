@@ -318,3 +318,8 @@
 (setq-default flymake-no-changes-timeout '1)  ;; '3)
 ;; (setq-default flymake-info-line-regexp "^([Ii]nfo|refactor)")
 ;; (setq flymake-warn-line-regexp "^not [wW]arning")
+
+
+;; TODO: test
+;; https://github.com/emacsmirror/undo-tree
+(byte-recompile-directory (expand-file-name "~/.emacs.d") 0)
