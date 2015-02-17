@@ -39,7 +39,12 @@ tf="$(mktemp)" && {
   git ls-tree -r --name-only HEAD > "$tf" && \
   cd "$home" && (
     cat "$tf" | while read fn; do
-      [ x"$fn" = x"0dotlink" ] && continue
+      case "$fn" in
+        "0dotlink") continue ;;
+        "0dotunlink") continue ;;
+        "bootstrap.sh") continue ;;
+        ".gitmodules") continue ;;
+      esac
       ## fn is repo-relative, curdir is home
       fd="$(dirname "$fn")"
       mkdir -pv "$fd"
