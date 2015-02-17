@@ -3,5 +3,6 @@
 set -eu
 
 git submodule init || true
-git submodule update --recursive
+## NOTE: `--depth` requires git >= 1.8.4
+git submodule update --recursive --depth 2
 ./0dotlink

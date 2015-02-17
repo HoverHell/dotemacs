@@ -16,7 +16,7 @@
 
 [submodule ".emacs.d/el-get/el-get"]
     path = .emacs.d/el-get/el-get
-    url = http://github.com/dimitri/el-get.git
+    url = https://github.com/dimitri/el-get.git
 
 [submodule ".emacs.d/el-get/epc"]
     path = .emacs.d/el-get/epc
@@ -92,7 +92,7 @@
 
 [submodule ".emacs.d/el-get/undo-tree"]
     path = .emacs.d/el-get/undo-tree
-    url = http://www.dr-qubit.org/git/undo-tree.git/
+    url = https://github.com/emacsmirror/undo-tree
 
 [submodule ".emacs.d/el-get/websocket"]
     path = .emacs.d/el-get/websocket
@@ -100,5 +100,4 @@
 
 [submodule ".emacs.d/jhamrick_emacs"]
     path = .emacs.d/jhamrick_emacs
-    url = git@github.com:HoverHell/jhamrick-emacs-modified
-
+    url = https://github.com/HoverHell/jhamrick-emacs-modified
