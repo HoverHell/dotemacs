@@ -309,7 +309,7 @@
 
 ; (a(b(c(d(e(f(g(h(i(j(k(l(m((((()))))m)l)k)j)i)h)g)f)e)d)c)b)a)
 
-(load "~/.emacs.d/lib/jhamrick_emacs.el" nil t)
+(load "~/.emacs.d/jhamrick_emacs/.emacs" nil t)
 
 ;; enhancements for displaying flymake errors
 (require 'flymake-cursor)
