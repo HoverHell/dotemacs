@@ -50,6 +50,9 @@
  (jedi status "installed" recipe
        (:name jedi :description "An awesome Python auto-completion for Emacs" :type github :pkgname "tkf/emacs-jedi" :submodule nil :depends
               (epc auto-complete python-environment)))
+ (js2-mode status "installed" recipe
+           (:name js2-mode :website "https://github.com/mooz/js2-mode#readme" :description "An improved JavaScript editing mode" :type github :pkgname "mooz/js2-mode" :prepare
+                  (autoload 'js2-mode "js2-mode" nil t)))
  (magit status "installed" recipe
         (:name magit :website "https://github.com/magit/magit#readme" :description "It's Magit! An Emacs mode for Git." :type github :pkgname "magit/magit" :depends
                (cl-lib git-modes)
@@ -100,4 +103,7 @@
  (undo-tree status "installed" recipe
             (:name undo-tree :description "Treat undo history as a tree" :website "http://www.dr-qubit.org/emacs.php" :type git :url "http://www.dr-qubit.org/git/undo-tree.git/"))
  (websocket status "installed" recipe
-            (:name websocket :description "A websocket implementation in elisp, for emacs." :type github :pkgname "ahyatt/emacs-websocket")))
+            (:name websocket :description "A websocket implementation in elisp, for emacs." :type github :pkgname "ahyatt/emacs-websocket"))
+ (yasnippet status "installed" recipe
+            (:name yasnippet :website "https://github.com/capitaomorte/yasnippet.git" :description "YASnippet is a template system for Emacs." :type github :pkgname "capitaomorte/yasnippet" :compile "yasnippet.el" :submodule nil :build
+                   (("git" "submodule" "update" "--init" "--" "snippets")))))
