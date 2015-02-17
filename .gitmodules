@@ -101,3 +101,11 @@
 [submodule ".emacs.d/jhamrick_emacs"]
     path = .emacs.d/jhamrick_emacs
     url = https://github.com/HoverHell/jhamrick-emacs-modified
+
+[submodule ".emacs.d/el-get/js2-mode"]
+    path = .emacs.d/el-get/js2-mode
+    url = https://github.com/mooz/js2-mode.git
+
+[submodule ".emacs.d/el-get/yasnippet"]
+    path = .emacs.d/el-get/yasnippet
+    url = https://github.com/capitaomorte/yasnippet.git
