@@ -1,0 +1,11 @@
+#!/bin/sh
+arg="(load-files-into-split-windows '("
+for fn in "$@"; do
+    ## TODO: escape the $fn
+    #$(printf "%q" "%fn")
+    #$(echo "$fn"|sed 's/"/\\"/g')
+    #...
+    arg="$arg \"$fn\""
+done
+arg="$arg))"
+emacsclient -t --eval "$arg"

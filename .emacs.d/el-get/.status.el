@@ -78,6 +78,17 @@
               (:name pycomplete+ :auto-generated t :type emacswiki :description "complete symbols at point using Pymacs" :website "https://raw.github.com/emacsmirror/emacswiki.org/master/pycomplete+.el"))
  (pydoc-info status "installed" recipe
              (:name pydoc-info :description "Emacs package for searching Python documentation in Info" :website "https://bitbucket.org/jonwaltman/pydoc-info" :type hg :url "https://bitbucket.org/jonwaltman/pydoc-info"))
+ (pymacs status "installed" recipe
+         (:name pymacs :description "Interface between Emacs Lisp and Python" :type github :pkgname "pinard/Pymacs" :prepare
+                (progn
+                  (el-get-envpath-prepend "PYTHONPATH" default-directory)
+                  (autoload 'pymacs-load "pymacs" nil t)
+                  (autoload 'pymacs-eval "pymacs" nil t)
+                  (autoload 'pymacs-exec "pymacs" nil t)
+                  (autoload 'pymacs-call "pymacs")
+                  (autoload 'pymacs-apply "pymacs"))
+                :build
+                ("make")))
  (python-environment status "installed" recipe
                      (:name python-environment :description "Python virtualenv API for Emacs Lisp" :type github :pkgname "tkf/emacs-python-environment" :depends
                             (deferred)))

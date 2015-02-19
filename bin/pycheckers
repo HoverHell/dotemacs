@@ -1,0 +1,16 @@
+#!/bin/bash
+## for jhamrick-emacs, primarily
+
+## ... hax:
+filepath="$1"
+shift 1
+filepath="$(python -c 'import os, sys; print os.path.normpath(os.path.join(sys.argv[1], sys.argv[2]))' "$(pwd)" "$filepath")"
+
+flake8 --max-line-length=100 --ignore=E262,E265 "$filepath" "$@"
+# pep8 --max-line-length=100 --ignore=E262,E265 "$@"
+epylint "$filepath" \
+  --disable=C0301,C0103,C0111,W0401,I0011,W0703,R0911,R0913,W0612,W0613,R0201\
+,W0602,W0603,R0914,W0614,W0212,R0904,R0902,R0903,W0142 \
+  --generated-members=objects,through,save,errors,is_valid,data,DoesNotExist\
+,object,_meta,add_to_class,_default_manager
+true

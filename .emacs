@@ -322,4 +322,4 @@
 
 ;; TODO: test
 ;; https://github.com/emacsmirror/undo-tree
-(byte-recompile-directory (expand-file-name "~/.emacs.d") 0)
+; (byte-recompile-directory (expand-file-name "~/.emacs.d") 0)
