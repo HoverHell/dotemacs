@@ -5,7 +5,7 @@
 
 ;;;### (autoloads (global-auto-complete-mode auto-complete-mode auto-complete)
 ;;;;;;  "auto-complete/auto-complete" "auto-complete/auto-complete.el"
-;;;;;;  (21731 25056 380628 518000))
+;;;;;;  (21733 61757 949868 336000))
 ;;; Generated autoloads from auto-complete/auto-complete.el
 
 (autoload 'auto-complete "auto-complete/auto-complete" "\
@@ -42,8 +42,8 @@ See `auto-complete-mode' for more information on Auto-Complete mode.
 ;;;***
 
 ;;;### (autoloads (ac-config-default) "auto-complete/auto-complete-config"
-;;;;;;  "auto-complete/auto-complete-config.el" (21731 25056 380628
-;;;;;;  518000))
+;;;;;;  "auto-complete/auto-complete-config.el" (21733 61757 949868
+;;;;;;  336000))
 ;;; Generated autoloads from auto-complete/auto-complete-config.el
 
 (autoload 'ac-config-default "auto-complete/auto-complete-config" "\
@@ -54,8 +54,8 @@ See `auto-complete-mode' for more information on Auto-Complete mode.
 ;;;***
 
 ;;;### (autoloads (cython-mode cython-default-compile-format cython)
-;;;;;;  "cython-mode/cython-mode" "cython-mode/cython-mode.el" (21731
-;;;;;;  25137 333690 724000))
+;;;;;;  "cython-mode/cython-mode" "cython-mode/cython-mode.el" (21733
+;;;;;;  62399 534097 495000))
 ;;; Generated autoloads from cython-mode/cython-mode.el
 
 (add-to-list 'auto-mode-alist '("\\.pyx\\'" . cython-mode))
@@ -83,8 +83,8 @@ Major mode for Cython development, derived from Python mode.
 
 ;;;### (autoloads (ein:connect-to-default-notebook ein:connect-buffer-to-notebook
 ;;;;;;  ein:connect-to-notebook-buffer ein:connect-to-notebook ein:connect-to-notebook-command)
-;;;;;;  "ein/lisp/ein-connect" "ein/lisp/ein-connect.el" (21731 25064
-;;;;;;  208731 229000))
+;;;;;;  "ein/lisp/ein-connect" "ein/lisp/ein-connect.el" (21733 61766
+;;;;;;  717983 237000))
 ;;; Generated autoloads from ein/lisp/ein-connect.el
 
 (autoload 'ein:connect-to-notebook-command "ein/lisp/ein-connect" "\
@@ -121,7 +121,7 @@ notebook.
 ;;;***
 
 ;;;### (autoloads (ein:console-open) "ein/lisp/ein-console" "ein/lisp/ein-console.el"
-;;;;;;  (21731 25064 208731 229000))
+;;;;;;  (21733 61766 717983 237000))
 ;;; Generated autoloads from ein/lisp/ein-console.el
 
 (autoload 'ein:console-open "ein/lisp/ein-console" "\
@@ -142,7 +142,7 @@ It should be possible to support python-mode.el.  Patches are welcome!
 
 ;;;### (autoloads (ein:dev-bug-report-template ein:dev-stop-debug
 ;;;;;;  ein:dev-start-debug ein:dev-insert-mode-map) "ein/lisp/ein-dev"
-;;;;;;  "ein/lisp/ein-dev.el" (21731 25064 208731 229000))
+;;;;;;  "ein/lisp/ein-dev.el" (21733 61766 717983 237000))
 ;;; Generated autoloads from ein/lisp/ein-dev.el
 
 (autoload 'ein:dev-insert-mode-map "ein/lisp/ein-dev" "\
@@ -171,7 +171,7 @@ Open a buffer with bug report template.
 
 ;;;### (autoloads (helm-ein-notebook-buffers anything-ein-notebook-buffers
 ;;;;;;  helm-ein-kernel-history anything-ein-kernel-history) "ein/lisp/ein-helm"
-;;;;;;  "ein/lisp/ein-helm.el" (21731 25064 208731 229000))
+;;;;;;  "ein/lisp/ein-helm.el" (21733 61766 717983 237000))
 ;;; Generated autoloads from ein/lisp/ein-helm.el
 
 (autoload 'anything-ein-kernel-history "ein/lisp/ein-helm" "\
@@ -197,7 +197,7 @@ Choose opened notebook using helm interface.
 ;;;***
 
 ;;;### (autoloads (ein:iexec-mode) "ein/lisp/ein-iexec" "ein/lisp/ein-iexec.el"
-;;;;;;  (21731 25064 208731 229000))
+;;;;;;  (21733 61766 717983 237000))
 ;;; Generated autoloads from ein/lisp/ein-iexec.el
 
 (autoload 'ein:iexec-mode "ein/lisp/ein-iexec" "\
@@ -210,7 +210,7 @@ change in its input area.
 ;;;***
 
 ;;;### (autoloads (ein:ipynb-mode) "ein/lisp/ein-ipynb-mode" "ein/lisp/ein-ipynb-mode.el"
-;;;;;;  (21731 25064 208731 229000))
+;;;;;;  (21733 61766 717983 237000))
 ;;; Generated autoloads from ein/lisp/ein-ipynb-mode.el
 
 (autoload 'ein:ipynb-mode "ein/lisp/ein-ipynb-mode" "\
@@ -223,8 +223,8 @@ A simple mode for ipynb file.
 ;;;***
 
 ;;;### (autoloads (ein:jedi-setup ein:jedi-dot-complete ein:jedi-complete)
-;;;;;;  "ein/lisp/ein-jedi" "ein/lisp/ein-jedi.el" (21731 25064 208731
-;;;;;;  229000))
+;;;;;;  "ein/lisp/ein-jedi" "ein/lisp/ein-jedi.el" (21733 61766 717983
+;;;;;;  237000))
 ;;; Generated autoloads from ein/lisp/ein-jedi.el
 
 (autoload 'ein:jedi-complete "ein/lisp/ein-jedi" "\
@@ -252,7 +252,7 @@ To use EIN and Jedi together, add the following in your Emacs setup.::
 ;;;***
 
 ;;;### (autoloads (ein:junk-rename ein:junk-new) "ein/lisp/ein-junk"
-;;;;;;  "ein/lisp/ein-junk.el" (21731 25064 208731 229000))
+;;;;;;  "ein/lisp/ein-junk.el" (21733 61766 717983 237000))
 ;;; Generated autoloads from ein/lisp/ein-junk.el
 
 (autoload 'ein:junk-new "ein/lisp/ein-junk" "\
@@ -273,7 +273,7 @@ and save it immediately.
 ;;;***
 
 ;;;### (autoloads nil "ein/lisp/ein-kernel" "ein/lisp/ein-kernel.el"
-;;;;;;  (21731 25064 208731 229000))
+;;;;;;  (21733 61766 717983 237000))
 ;;; Generated autoloads from ein/lisp/ein-kernel.el
 
 (defalias 'ein:kernel-url-or-port 'ein:$kernel-url-or-port)
@@ -283,7 +283,7 @@ and save it immediately.
 ;;;***
 
 ;;;### (autoloads (ein:notebook-multilang-mode) "ein/lisp/ein-multilang"
-;;;;;;  "ein/lisp/ein-multilang.el" (21731 25064 208731 229000))
+;;;;;;  "ein/lisp/ein-multilang.el" (21733 61766 717983 237000))
 ;;; Generated autoloads from ein/lisp/ein-multilang.el
 
 (autoload 'ein:notebook-multilang-mode "ein/lisp/ein-multilang" "\
@@ -294,7 +294,7 @@ Notebook mode with multiple language fontification.
 ;;;***
 
 ;;;### (autoloads nil "ein/lisp/ein-notebook" "ein/lisp/ein-notebook.el"
-;;;;;;  (21731 25064 208731 229000))
+;;;;;;  (21733 61766 721983 290000))
 ;;; Generated autoloads from ein/lisp/ein-notebook.el
 
 (defalias 'ein:notebook-name 'ein:$notebook-notebook-name)
@@ -305,7 +305,7 @@ Notebook mode with multiple language fontification.
 ;;;;;;  ein:notebooklist-list-notebooks ein:notebooklist-new-notebook-with-name
 ;;;;;;  ein:notebooklist-new-notebook ein:notebooklist-reload ein:notebooklist-open)
 ;;;;;;  "ein/lisp/ein-notebooklist" "ein/lisp/ein-notebooklist.el"
-;;;;;;  (21731 25064 208731 229000))
+;;;;;;  (21733 61766 721983 290000))
 ;;; Generated autoloads from ein/lisp/ein-notebooklist.el
 
 (autoload 'ein:notebooklist-open "ein/lisp/ein-notebooklist" "\
@@ -367,7 +367,7 @@ See also:
 ;;;***
 
 ;;;### (autoloads (ein:org-store-link ein:org-open) "ein/lisp/ein-org"
-;;;;;;  "ein/lisp/ein-org.el" (21731 25064 208731 229000))
+;;;;;;  "ein/lisp/ein-org.el" (21733 61766 721983 290000))
 ;;; Generated autoloads from ein/lisp/ein-org.el
 
 (autoload 'ein:org-open "ein/lisp/ein-org" "\
@@ -403,7 +403,7 @@ node `(org) External links' and Info node `(org) Search options'
 ;;;***
 
 ;;;### (autoloads (ein:pseudo-console-mode) "ein/lisp/ein-pseudo-console"
-;;;;;;  "ein/lisp/ein-pseudo-console.el" (21731 25064 208731 229000))
+;;;;;;  "ein/lisp/ein-pseudo-console.el" (21733 61766 721983 290000))
 ;;; Generated autoloads from ein/lisp/ein-pseudo-console.el
 
 (autoload 'ein:pseudo-console-mode "ein/lisp/ein-pseudo-console" "\
@@ -415,7 +415,7 @@ Pseudo console mode.  Hit RET to execute code.
 
 ;;;### (autoloads (ein:shared-output-eval-string ein:shared-output-show-code-cell-at-point
 ;;;;;;  ein:shared-output-pop-to-buffer) "ein/lisp/ein-shared-output"
-;;;;;;  "ein/lisp/ein-shared-output.el" (21731 25064 208731 229000))
+;;;;;;  "ein/lisp/ein-shared-output.el" (21733 61766 721983 290000))
 ;;; Generated autoloads from ein/lisp/ein-shared-output.el
 
 (autoload 'ein:shared-output-pop-to-buffer "ein/lisp/ein-shared-output" "\
@@ -445,7 +445,7 @@ shared output buffer.  You can open the buffer by the command
 ;;;***
 
 ;;;### (autoloads (ein:tb-show) "ein/lisp/ein-traceback" "ein/lisp/ein-traceback.el"
-;;;;;;  (21731 25064 208731 229000))
+;;;;;;  (21733 61766 721983 290000))
 ;;; Generated autoloads from ein/lisp/ein-traceback.el
 
 (autoload 'ein:tb-show "ein/lisp/ein-traceback" "\
@@ -457,8 +457,8 @@ Show full traceback in traceback viewer.
 
 ;;;### (autoloads (el-get-checksum el-get-make-recipes el-get-cd
 ;;;;;;  el-get-self-update el-get-update-packages-of-type el-get-update-all
-;;;;;;  el-get-version) "el-get/el-get" "el-get/el-get.el" (21731
-;;;;;;  25068 388786 79000))
+;;;;;;  el-get-version) "el-get/el-get" "el-get/el-get.el" (21733
+;;;;;;  61771 190041 793000))
 ;;; Generated autoloads from el-get/el-get.el
 
 (autoload 'el-get-version "el-get/el-get" "\
@@ -500,7 +500,7 @@ Compute the checksum of the given package, and put it in the kill-ring
 ;;;***
 
 ;;;### (autoloads (el-get-list-packages) "el-get/el-get-list-packages"
-;;;;;;  "el-get/el-get-list-packages.el" (21731 25068 388786 79000))
+;;;;;;  "el-get/el-get-list-packages.el" (21733 61771 190041 793000))
 ;;; Generated autoloads from el-get/el-get-list-packages.el
 
 (autoload 'el-get-list-packages "el-get/el-get-list-packages" "\
@@ -511,7 +511,7 @@ Display a list of packages.
 ;;;***
 
 ;;;### (autoloads (flymake-cursor-mode) "flymake-cursor/flymake-cursor"
-;;;;;;  "flymake-cursor/flymake-cursor.el" (21731 25074 236862 812000))
+;;;;;;  "flymake-cursor/flymake-cursor.el" (21733 61777 90118 999000))
 ;;; Generated autoloads from flymake-cursor/flymake-cursor.el
 
 (autoload 'flymake-cursor-mode "flymake-cursor/flymake-cursor" "\
@@ -529,8 +529,8 @@ the mode directly.
 ;;;***
 
 ;;;### (autoloads (flymake-find-file-hook flymake-mode-off flymake-mode-on
-;;;;;;  flymake-mode) "flymake/flymake" "flymake/flymake.el" (21731
-;;;;;;  25072 556840 765000))
+;;;;;;  flymake-mode) "flymake/flymake" "flymake/flymake.el" (21733
+;;;;;;  61775 254094 978000))
 ;;; Generated autoloads from flymake/flymake.el
 
 (autoload 'flymake-mode "flymake/flymake" "\
@@ -559,7 +559,7 @@ Turn flymake mode off.
 ;;;***
 
 ;;;### (autoloads (git-commit-mode) "git-modes/git-commit-mode" "git-modes/git-commit-mode.el"
-;;;;;;  (21731 25078 424917 763000))
+;;;;;;  (21733 61781 134171 888000))
 ;;; Generated autoloads from git-modes/git-commit-mode.el
 
 (autoload 'git-commit-mode "git-modes/git-commit-mode" "\
@@ -576,7 +576,7 @@ basic structure of and errors in git commit messages.
 ;;;***
 
 ;;;### (autoloads (git-rebase-mode) "git-modes/git-rebase-mode" "git-modes/git-rebase-mode.el"
-;;;;;;  (21731 25078 424917 763000))
+;;;;;;  (21733 61781 134171 888000))
 ;;; Generated autoloads from git-modes/git-rebase-mode.el
 
 (autoload 'git-rebase-mode "git-modes/git-rebase-mode" "\
@@ -594,7 +594,7 @@ running 'man git-rebase' at the command line) for details.
 ;;;***
 
 ;;;### (autoloads (gitattributes-mode) "git-modes/gitattributes-mode"
-;;;;;;  "git-modes/gitattributes-mode.el" (21731 25078 424917 763000))
+;;;;;;  "git-modes/gitattributes-mode.el" (21733 61781 134171 888000))
 ;;; Generated autoloads from git-modes/gitattributes-mode.el
 
 (autoload 'gitattributes-mode "git-modes/gitattributes-mode" "\
@@ -608,7 +608,7 @@ A major mode for editing .gitattributes files.
 ;;;***
 
 ;;;### (autoloads (gitconfig-mode) "git-modes/gitconfig-mode" "git-modes/gitconfig-mode.el"
-;;;;;;  (21731 25078 424917 763000))
+;;;;;;  (21733 61781 134171 888000))
 ;;; Generated autoloads from git-modes/gitconfig-mode.el
 
 (autoload 'gitconfig-mode "git-modes/gitconfig-mode" "\
@@ -621,7 +621,7 @@ A major mode for editing .gitconfig files.
 ;;;***
 
 ;;;### (autoloads (gitignore-mode) "git-modes/gitignore-mode" "git-modes/gitignore-mode.el"
-;;;;;;  (21731 25078 424917 763000))
+;;;;;;  (21733 61781 134171 888000))
 ;;; Generated autoloads from git-modes/gitignore-mode.el
 
 (autoload 'gitignore-mode "git-modes/gitignore-mode" "\
@@ -635,7 +635,7 @@ A major mode for editing .gitignore files.
 
 ;;;### (autoloads (helm-descbinds helm-descbinds-uninstall helm-descbinds-install
 ;;;;;;  helm-descbinds-mode) "helm-descbinds/helm-descbinds" "helm-descbinds/helm-descbinds.el"
-;;;;;;  (21731 25089 801067 31000))
+;;;;;;  (21733 61791 962313 378000))
 ;;; Generated autoloads from helm-descbinds/helm-descbinds.el
 
 (defvar helm-descbinds-mode nil "\
@@ -686,7 +686,7 @@ Yet Another `describe-bindings' with `helm'.
 ;;;;;;  helm-other-buffer helm-resume-list-buffers-after-quit helm-resume-previous-session-after-quit
 ;;;;;;  helm-resume helm-debug-open-last-log helm-define-key-with-subkeys
 ;;;;;;  helm-multi-key-defun helm-define-multi-key) "helm/helm" "helm/helm.el"
-;;;;;;  (21731 25087 893041 995000))
+;;;;;;  (21733 61790 258291 123000))
 ;;; Generated autoloads from helm/helm.el
 
 (autoload 'helm-define-multi-key "helm/helm" "\
@@ -1024,7 +1024,7 @@ This will enable `helm-follow-mode' automatically in `helm-source-buffers-list'.
 ;;;***
 
 ;;;### (autoloads (helm-reset-adaptive-history) "helm/helm-adaptive"
-;;;;;;  "helm/helm-adaptive.el" (21731 25087 881041 838000))
+;;;;;;  "helm/helm-adaptive.el" (21733 61790 242290 915000))
 ;;; Generated autoloads from helm/helm-adaptive.el
 
 (autoload 'helm-reset-adaptive-history "helm/helm-adaptive" "\
@@ -1035,8 +1035,8 @@ Useful when you have a old or corrupted `helm-adaptive-history-file'.
 
 ;;;***
 
-;;;### (autoloads (helm-apt) "helm/helm-apt" "helm/helm-apt.el" (21731
-;;;;;;  25087 881041 838000))
+;;;### (autoloads (helm-apt) "helm/helm-apt" "helm/helm-apt.el" (21733
+;;;;;;  61790 242290 915000))
 ;;; Generated autoloads from helm/helm-apt.el
 
 (autoload 'helm-apt "helm/helm-apt" "\
@@ -1048,7 +1048,7 @@ With a prefix arg reload cache.
 ;;;***
 
 ;;;### (autoloads (helm-bbdb) "helm/helm-bbdb" "helm/helm-bbdb.el"
-;;;;;;  (21731 25087 881041 838000))
+;;;;;;  (21733 61790 242290 915000))
 ;;; Generated autoloads from helm/helm-bbdb.el
 
 (autoload 'helm-bbdb "helm/helm-bbdb" "\
@@ -1063,8 +1063,8 @@ http://bbdb.sourceforge.net/
 ;;;***
 
 ;;;### (autoloads (helm-filtered-bookmarks helm-pp-bookmarks helm-bookmarks)
-;;;;;;  "helm/helm-bookmark" "helm/helm-bookmark.el" (21731 25087
-;;;;;;  881041 838000))
+;;;;;;  "helm/helm-bookmark" "helm/helm-bookmark.el" (21733 61790
+;;;;;;  242290 915000))
 ;;; Generated autoloads from helm/helm-bookmark.el
 
 (autoload 'helm-bookmarks "helm/helm-bookmark" "\
@@ -1087,7 +1087,7 @@ only if external library addressbook-bookmark.el is available.
 ;;;***
 
 ;;;### (autoloads (helm-buffers-list) "helm/helm-buffers" "helm/helm-buffers.el"
-;;;;;;  (21731 25087 881041 838000))
+;;;;;;  (21733 61790 242290 915000))
 ;;; Generated autoloads from helm/helm-buffers.el
 
 (autoload 'helm-buffers-list "helm/helm-buffers" "\
@@ -1098,7 +1098,7 @@ Preconfigured `helm' to list buffers.
 ;;;***
 
 ;;;### (autoloads (helm-simple-call-tree) "helm/helm-call-tree" "helm/helm-call-tree.el"
-;;;;;;  (21731 25087 881041 838000))
+;;;;;;  (21733 61790 242290 915000))
 ;;; Generated autoloads from helm/helm-call-tree.el
 
 (autoload 'helm-simple-call-tree "helm/helm-call-tree" "\
@@ -1112,7 +1112,7 @@ http://www.emacswiki.org/cgi-bin/wiki/download/simple-call-tree.el
 ;;;***
 
 ;;;### (autoloads (helm-colors) "helm/helm-color" "helm/helm-color.el"
-;;;;;;  (21731 25087 881041 838000))
+;;;;;;  (21733 61790 242290 915000))
 ;;; Generated autoloads from helm/helm-color.el
 
 (autoload 'helm-colors "helm/helm-color" "\
@@ -1123,7 +1123,7 @@ Preconfigured `helm' for color.
 ;;;***
 
 ;;;### (autoloads (helm-M-x) "helm/helm-command" "helm/helm-command.el"
-;;;;;;  (21731 25087 881041 838000))
+;;;;;;  (21733 61790 242290 915000))
 ;;; Generated autoloads from helm/helm-command.el
 
 (autoload 'helm-M-x "helm/helm-command" "\
@@ -1140,7 +1140,7 @@ You can get help on each command by persistent action.
 ;;;***
 
 ;;;### (autoloads (helm-configuration) "helm/helm-config" "helm/helm-config.el"
-;;;;;;  (21731 25087 881041 838000))
+;;;;;;  (21733 61790 246290 967000))
 ;;; Generated autoloads from helm/helm-config.el
 
 (autoload 'helm-configuration "helm/helm-config" "\
@@ -1151,7 +1151,7 @@ Customize `helm'.
 ;;;***
 
 ;;;### (autoloads (helm-dabbrev) "helm/helm-dabbrev" "helm/helm-dabbrev.el"
-;;;;;;  (21731 25087 881041 838000))
+;;;;;;  (21733 61790 246290 967000))
 ;;; Generated autoloads from helm/helm-dabbrev.el
 
 (autoload 'helm-dabbrev "helm/helm-dabbrev" "\
@@ -1164,8 +1164,8 @@ Customize `helm'.
 ;;;### (autoloads (helm-complex-command-history helm-timers helm-locate-library
 ;;;;;;  helm-manage-advice helm-apropos helm-lisp-completion-or-file-name-at-point
 ;;;;;;  helm-lisp-indent helm-complete-file-name-at-point helm-lisp-completion-at-point)
-;;;;;;  "helm/helm-elisp" "helm/helm-elisp.el" (21731 25087 885041
-;;;;;;  891000))
+;;;;;;  "helm/helm-elisp" "helm/helm-elisp.el" (21733 61790 246290
+;;;;;;  967000))
 ;;; Generated autoloads from helm/helm-elisp.el
 
 (autoload 'helm-lisp-completion-at-point "helm/helm-elisp" "\
@@ -1217,7 +1217,7 @@ Preconfigured `helm' for timers.
 ;;;***
 
 ;;;### (autoloads (helm-list-elisp-packages) "helm/helm-elisp-package"
-;;;;;;  "helm/helm-elisp-package.el" (21731 25087 885041 891000))
+;;;;;;  "helm/helm-elisp-package.el" (21733 61790 246290 967000))
 ;;; Generated autoloads from helm/helm-elisp-package.el
 
 (autoload 'helm-list-elisp-packages "helm/helm-elisp-package" "\
@@ -1228,7 +1228,7 @@ Preconfigured `helm' for timers.
 ;;;***
 
 ;;;### (autoloads (helm-elscreen) "helm/helm-elscreen" "helm/helm-elscreen.el"
-;;;;;;  (21731 25087 885041 891000))
+;;;;;;  (21733 61790 246290 967000))
 ;;; Generated autoloads from helm/helm-elscreen.el
 
 (autoload 'helm-elscreen "helm/helm-elscreen" "\
@@ -1239,7 +1239,7 @@ Preconfigured helm to list elscreen.
 ;;;***
 
 ;;;### (autoloads (helm-emms) "helm/helm-emms" "helm/helm-emms.el"
-;;;;;;  (21731 25087 885041 891000))
+;;;;;;  (21733 61790 246290 967000))
 ;;; Generated autoloads from helm/helm-emms.el
 
 (autoload 'helm-emms "helm/helm-emms" "\
@@ -1250,7 +1250,7 @@ Preconfigured `helm' for emms sources.
 ;;;***
 
 ;;;### (autoloads (helm-eshell-history helm-esh-pcomplete) "helm/helm-eshell"
-;;;;;;  "helm/helm-eshell.el" (21731 25087 885041 891000))
+;;;;;;  "helm/helm-eshell.el" (21733 61790 246290 967000))
 ;;; Generated autoloads from helm/helm-eshell.el
 
 (autoload 'helm-esh-pcomplete "helm/helm-eshell" "\
@@ -1267,7 +1267,7 @@ Preconfigured helm for eshell history.
 
 ;;;### (autoloads (helm-calcul-expression helm-eval-expression-with-eldoc
 ;;;;;;  helm-eval-expression) "helm/helm-eval" "helm/helm-eval.el"
-;;;;;;  (21731 25087 885041 891000))
+;;;;;;  (21733 61790 246290 967000))
 ;;; Generated autoloads from helm/helm-eval.el
 
 (autoload 'helm-eval-expression "helm/helm-eval" "\
@@ -1288,7 +1288,7 @@ Preconfigured helm for `helm-source-calculation-result'.
 ;;;***
 
 ;;;### (autoloads (helm-run-external-command) "helm/helm-external"
-;;;;;;  "helm/helm-external.el" (21731 25087 885041 891000))
+;;;;;;  "helm/helm-external.el" (21733 61790 246290 967000))
 ;;; Generated autoloads from helm/helm-external.el
 
 (autoload 'helm-run-external-command "helm/helm-external" "\
@@ -1303,7 +1303,7 @@ You can set your own list of commands with
 
 ;;;### (autoloads (helm-recentf helm-for-files helm-find-files helm-find
 ;;;;;;  helm-browse-project) "helm/helm-files" "helm/helm-files.el"
-;;;;;;  (21731 25087 885041 891000))
+;;;;;;  (21733 61790 250291 20000))
 ;;; Generated autoloads from helm/helm-files.el
 
 (autoload 'helm-browse-project "helm/helm-files" "\
@@ -1345,7 +1345,7 @@ Preconfigured `helm' for `recentf'.
 ;;;***
 
 ;;;### (autoloads (helm-firefox-bookmarks) "helm/helm-firefox" "helm/helm-firefox.el"
-;;;;;;  (21731 25087 885041 891000))
+;;;;;;  (21733 61790 250291 20000))
 ;;; Generated autoloads from helm/helm-firefox.el
 
 (autoload 'helm-firefox-bookmarks "helm/helm-firefox" "\
@@ -1366,7 +1366,7 @@ After closing firefox, you will be able to browse you bookmarks.
 ;;;***
 
 ;;;### (autoloads (helm-ucs helm-select-xfont) "helm/helm-font" "helm/helm-font.el"
-;;;;;;  (21731 25087 885041 891000))
+;;;;;;  (21733 61790 250291 20000))
 ;;; Generated autoloads from helm/helm-font.el
 
 (autoload 'helm-select-xfont "helm/helm-font" "\
@@ -1382,7 +1382,7 @@ Preconfigured helm for `ucs-names' math symbols.
 ;;;***
 
 ;;;### (autoloads (helm-gentoo) "helm/helm-gentoo" "helm/helm-gentoo.el"
-;;;;;;  (21731 25087 885041 891000))
+;;;;;;  (21733 61790 250291 20000))
 ;;; Generated autoloads from helm/helm-gentoo.el
 
 (autoload 'helm-gentoo "helm/helm-gentoo" "\
@@ -1397,7 +1397,7 @@ Preconfigured `helm' for gentoo linux.
 ;;;;;;  helm-grep-mode-jump helm-gm-precedent-file helm-gm-next-file
 ;;;;;;  helm-grep-mode helm-grep-run-save-buffer helm-goto-next-file
 ;;;;;;  helm-goto-precedent-file) "helm/helm-grep" "helm/helm-grep.el"
-;;;;;;  (21731 25087 885041 891000))
+;;;;;;  (21733 61790 250291 20000))
 ;;; Generated autoloads from helm/helm-grep.el
 
 (autoload 'helm-goto-precedent-file "helm/helm-grep" "\
@@ -1485,7 +1485,7 @@ Preconfigured helm for pdfgrep.
 ;;;;;;  helm-esh-help helm-bookmark-help helm-ucs-help helm-etags-help
 ;;;;;;  helm-pdfgrep-help helm-grep-help helm-generic-file-help helm-read-file-name-help
 ;;;;;;  helm-ff-help helm-buffer-help helm-help) "helm/helm-help"
-;;;;;;  "helm/helm-help.el" (21731 25087 885041 891000))
+;;;;;;  "helm/helm-help.el" (21733 61790 250291 20000))
 ;;; Generated autoloads from helm/helm-help.el
 
 (defvar helm-mode-line-string "\\<helm-map>\\[helm-help]:Help \\[helm-select-action]:Act \\[helm-exit-minibuffer]/\\[helm-select-2nd-action-or-end-of-line]/\\[helm-select-3rd-action]:NthAct" "\
@@ -1652,7 +1652,7 @@ HELM-ATTRIBUTE should be a symbol.
 ;;;***
 
 ;;;### (autoloads (helm-imenu) "helm/helm-imenu" "helm/helm-imenu.el"
-;;;;;;  (21731 25087 885041 891000))
+;;;;;;  (21733 61790 250291 20000))
 ;;; Generated autoloads from helm/helm-imenu.el
 
 (autoload 'helm-imenu "helm/helm-imenu" "\
@@ -1663,7 +1663,7 @@ Preconfigured `helm' for `imenu'.
 ;;;***
 
 ;;;### (autoloads (helm-info-at-point) "helm/helm-info" "helm/helm-info.el"
-;;;;;;  (21731 25087 885041 891000))
+;;;;;;  (21733 61790 250291 20000))
 ;;; Generated autoloads from helm/helm-info.el
 
 (autoload 'helm-info-at-point "helm/helm-info" "\
@@ -1675,7 +1675,7 @@ With a prefix-arg insert symbol at point.
 ;;;***
 
 ;;;### (autoloads (helm-locate helm-locate-read-file-name) "helm/helm-locate"
-;;;;;;  "helm/helm-locate.el" (21731 25087 885041 891000))
+;;;;;;  "helm/helm-locate.el" (21733 61790 250291 20000))
 ;;; Generated autoloads from helm/helm-locate.el
 
 (autoload 'helm-locate-read-file-name "helm/helm-locate" "\
@@ -1704,7 +1704,7 @@ Where db_path is a filename matched by
 ;;;***
 
 ;;;### (autoloads (helm-man-woman) "helm/helm-man" "helm/helm-man.el"
-;;;;;;  (21731 25087 885041 891000))
+;;;;;;  (21733 61790 250291 20000))
 ;;; Generated autoloads from helm/helm-man.el
 
 (autoload 'helm-man-woman "helm/helm-man" "\
@@ -1716,7 +1716,7 @@ With a prefix arg reinitialize the cache.
 ;;;***
 
 ;;;### (autoloads (helm-match-plugin-mode) "helm/helm-match-plugin"
-;;;;;;  "helm/helm-match-plugin.el" (21731 25087 889041 942000))
+;;;;;;  "helm/helm-match-plugin.el" (21733 61790 254291 72000))
 ;;; Generated autoloads from helm/helm-match-plugin.el
 
 (defvar helm-match-plugin-mode nil "\
@@ -1739,8 +1739,8 @@ See `helm-mp-matching-method' for the behavior of each method.
 ;;;### (autoloads (helm-comint-input-ring helm-minibuffer-history
 ;;;;;;  helm-mini helm-stumpwm-commands helm-ratpoison-commands helm-eev-anchors
 ;;;;;;  helm-insert-latex-math helm-world-time helm-browse-menubar)
-;;;;;;  "helm/helm-misc" "helm/helm-misc.el" (21731 25087 889041
-;;;;;;  942000))
+;;;;;;  "helm/helm-misc" "helm/helm-misc.el" (21733 61790 254291
+;;;;;;  72000))
 ;;; Generated autoloads from helm/helm-misc.el
 
 (autoload 'helm-browse-menubar "helm/helm-misc" "\
@@ -1791,7 +1791,7 @@ Predefined `helm' that provide completion of `comint' history.
 ;;;***
 
 ;;;### (autoloads (helm-mode helm-comp-read) "helm/helm-mode" "helm/helm-mode.el"
-;;;;;;  (21731 25087 889041 942000))
+;;;;;;  (21733 61790 254291 72000))
 ;;; Generated autoloads from helm/helm-mode.el
 
 (autoload 'helm-comp-read "helm/helm-mode" "\
@@ -1911,8 +1911,8 @@ Note: This mode is incompatible with Emacs23.
 ;;;***
 
 ;;;### (autoloads (helm-wikipedia-suggest helm-yahoo-suggest helm-google-suggest
-;;;;;;  helm-surfraw) "helm/helm-net" "helm/helm-net.el" (21731 25087
-;;;;;;  889041 942000))
+;;;;;;  helm-surfraw) "helm/helm-net" "helm/helm-net.el" (21733 61790
+;;;;;;  254291 72000))
 ;;; Generated autoloads from helm/helm-net.el
 
 (autoload 'helm-surfraw "helm/helm-net" "\
@@ -1938,7 +1938,7 @@ Preconfigured `helm' for Wikipedia lookup with Wikipedia suggest.
 ;;;***
 
 ;;;### (autoloads (helm-org-headlines helm-org-keywords) "helm/helm-org"
-;;;;;;  "helm/helm-org.el" (21731 25087 889041 942000))
+;;;;;;  "helm/helm-org.el" (21733 61790 254291 72000))
 ;;; Generated autoloads from helm/helm-org.el
 
 (autoload 'helm-org-keywords "helm/helm-org" "\
@@ -1956,8 +1956,8 @@ Preconfigured helm to show org headlines.
 ;;;### (autoloads (helm-multi-occur-from-isearch helm-multi-occur
 ;;;;;;  helm-occur-from-isearch helm-occur helm-regexp helm-moccur-mode
 ;;;;;;  helm-moccur-run-save-buffer helm-occur-match-plugin-mode)
-;;;;;;  "helm/helm-regexp" "helm/helm-regexp.el" (21731 25087 889041
-;;;;;;  942000))
+;;;;;;  "helm/helm-regexp" "helm/helm-regexp.el" (21733 61790 254291
+;;;;;;  72000))
 ;;; Generated autoloads from helm/helm-regexp.el
 
 (defvar helm-occur-match-plugin-mode t "\
@@ -2028,7 +2028,7 @@ The prefix arg can be set before calling
 
 ;;;### (autoloads (helm-show-kill-ring helm-register helm-all-mark-rings
 ;;;;;;  helm-global-mark-ring helm-mark-ring) "helm/helm-ring" "helm/helm-ring.el"
-;;;;;;  (21731 25087 889041 942000))
+;;;;;;  (21733 61790 254291 72000))
 ;;; Generated autoloads from helm/helm-ring.el
 
 (autoload 'helm-mark-ring "helm/helm-ring" "\
@@ -2062,7 +2062,7 @@ First call open the kill-ring browser, next calls move to next line.
 ;;;***
 
 ;;;### (autoloads (helm-semantic-or-imenu helm-semantic) "helm/helm-semantic"
-;;;;;;  "helm/helm-semantic.el" (21731 25087 889041 942000))
+;;;;;;  "helm/helm-semantic.el" (21733 61790 254291 72000))
 ;;; Generated autoloads from helm/helm-semantic.el
 
 (autoload 'helm-semantic "helm/helm-semantic" "\
@@ -2084,7 +2084,7 @@ Fill in the symbol at point by default.
 ;;;### (autoloads (helm-xrandr-set helm-list-emacs-process helm-top
 ;;;;;;  helm-top-run-sort-by-user helm-top-run-sort-by-mem helm-top-run-sort-by-cpu
 ;;;;;;  helm-top-run-sort-by-com) "helm/helm-sys" "helm/helm-sys.el"
-;;;;;;  (21731 25087 889041 942000))
+;;;;;;  (21733 61790 254291 72000))
 ;;; Generated autoloads from helm/helm-sys.el
 
 (autoload 'helm-top-run-sort-by-com "helm/helm-sys" "\
@@ -2125,7 +2125,7 @@ Preconfigured `helm' for emacs process.
 ;;;***
 
 ;;;### (autoloads (helm-etags-select) "helm/helm-tags" "helm/helm-tags.el"
-;;;;;;  (21731 25087 893041 995000))
+;;;;;;  (21733 61790 254291 72000))
 ;;; Generated autoloads from helm/helm-tags.el
 
 (autoload 'helm-etags-select "helm/helm-tags" "\
@@ -2145,8 +2145,8 @@ This function aggregates three sources of tag files:
 
 ;;;### (autoloads (helm-yank-text-at-point helm-w32-shell-execute-open-file
 ;;;;;;  helm-quit-and-find-file helm-display-all-sources helm-show-all-in-this-source-only)
-;;;;;;  "helm/helm-utils" "helm/helm-utils.el" (21731 25087 893041
-;;;;;;  995000))
+;;;;;;  "helm/helm-utils" "helm/helm-utils.el" (21733 61790 254291
+;;;;;;  72000))
 ;;; Generated autoloads from helm/helm-utils.el
 
 (autoload 'helm-show-all-in-this-source-only "helm/helm-utils" "\
@@ -2182,7 +2182,7 @@ grabs the entire symbol.
 ;;;***
 
 ;;;### (autoloads (helm-w3m-bookmarks) "helm/helm-w3m" "helm/helm-w3m.el"
-;;;;;;  (21731 25087 893041 995000))
+;;;;;;  (21733 61790 254291 72000))
 ;;; Generated autoloads from helm/helm-w3m.el
 
 (autoload 'helm-w3m-bookmarks "helm/helm-w3m" "\
@@ -2199,7 +2199,7 @@ http://emacs-w3m.namazu.org/
 
 ;;;### (autoloads (helm-yaoddmuse-emacswiki-post-library helm-yaoddmuse-emacswiki-edit-or-view
 ;;;;;;  helm-yaoddmuse-cache-pages) "helm/helm-yaoddmuse" "helm/helm-yaoddmuse.el"
-;;;;;;  (21731 25087 893041 995000))
+;;;;;;  (21733 61790 254291 72000))
 ;;; Generated autoloads from helm/helm-yaoddmuse.el
 
 (autoload 'helm-yaoddmuse-cache-pages "helm/helm-yaoddmuse" "\
@@ -2229,8 +2229,8 @@ http://www.emacswiki.org/emacs/download/yaoddmuse.el
 ;;;***
 
 ;;;### (autoloads (highlight-parentheses-mode) "highlight-parentheses/highlight-parentheses"
-;;;;;;  "highlight-parentheses/highlight-parentheses.el" (21731 25091
-;;;;;;  557090 73000))
+;;;;;;  "highlight-parentheses/highlight-parentheses.el" (21733 61793
+;;;;;;  630335 159000))
 ;;; Generated autoloads from highlight-parentheses/highlight-parentheses.el
 
 (autoload 'highlight-parentheses-mode "highlight-parentheses/highlight-parentheses" "\
@@ -2243,7 +2243,7 @@ Minor mode to highlight the surrounding parentheses.
 ;;;### (autoloads (jedi:install-server-block jedi:install-server
 ;;;;;;  jedi:setup anything-jedi-related-names helm-jedi-related-names
 ;;;;;;  jedi:ac-setup jedi:complete jedi:start-dedicated-server)
-;;;;;;  "jedi/jedi" "jedi/jedi.el" (21731 25094 537129 173000))
+;;;;;;  "jedi/jedi" "jedi/jedi.el" (21733 61796 14366 283000))
 ;;; Generated autoloads from jedi/jedi.el
 
 (autoload 'jedi:start-dedicated-server "jedi/jedi" "\
@@ -2355,7 +2355,7 @@ Blocking version `jedi:install-server'.
 
 ;;;### (autoloads (js2-imenu-extras-mode js2-imenu-extras-setup)
 ;;;;;;  "js2-mode/js2-imenu-extras" "js2-mode/js2-imenu-extras.el"
-;;;;;;  (21733 60166 539898 746000))
+;;;;;;  (21733 61800 434423 963000))
 ;;; Generated autoloads from js2-mode/js2-imenu-extras.el
 
 (autoload 'js2-imenu-extras-setup "js2-mode/js2-imenu-extras" "\
@@ -2371,7 +2371,7 @@ Toggle Imenu support for frameworks and structural patterns.
 ;;;***
 
 ;;;### (autoloads (js2-mode js2-minor-mode) "js2-mode/js2-mode" "js2-mode/js2-mode.el"
-;;;;;;  (21733 60166 543898 806000))
+;;;;;;  (21733 61800 442424 66000))
 ;;; Generated autoloads from js2-mode/js2-mode.el
 
 (autoload 'js2-minor-mode "js2-mode/js2-mode" "\
@@ -2409,7 +2409,7 @@ Major mode for editing JavaScript code.
 ;;;;;;  magit-create-branch magit-checkout magit-merge-abort magit-merge
 ;;;;;;  magit-show magit-dired-jump magit-unstage-all magit-stage-all
 ;;;;;;  magit-status magit-show-commit magit-git-command) "magit/magit"
-;;;;;;  "magit/magit.el" (21731 25102 733236 718000))
+;;;;;;  "magit/magit.el" (21733 61807 902521 354000))
 ;;; Generated autoloads from magit/magit.el
 
 (autoload 'magit-git-command "magit/magit" "\
@@ -2913,7 +2913,7 @@ a prefix argument run gitk without any arguments.
 ;;;***
 
 ;;;### (autoloads (magit-blame-mode) "magit/magit-blame" "magit/magit-blame.el"
-;;;;;;  (21731 25102 729236 665000))
+;;;;;;  (21733 61807 902521 354000))
 ;;; Generated autoloads from magit/magit-blame.el
 
 (autoload 'magit-blame-mode "magit/magit-blame" "\
@@ -2924,7 +2924,7 @@ Display blame information inline.
 ;;;***
 
 ;;;### (autoloads nil "magit/magit-key-mode" "magit/magit-key-mode.el"
-;;;;;;  (21731 25102 729236 665000))
+;;;;;;  (21733 61807 902521 354000))
 ;;; Generated autoloads from magit/magit-key-mode.el
 
 (defvar magit-key-mode-groups '((dispatch (actions ("b" "Branching" magit-key-mode-popup-branching) ("B" "Bisecting" magit-key-mode-popup-bisecting) ("c" "Committing" magit-key-mode-popup-committing) ("d" "Diff worktree" magit-diff-working-tree) ("D" "Diff" magit-diff) ("f" "Fetching" magit-key-mode-popup-fetching) ("F" "Pulling" magit-key-mode-popup-pulling) ("g" "Refresh Buffers" magit-refresh-all) ("l" "Logging" magit-key-mode-popup-logging) ("m" "Merging" magit-key-mode-popup-merging) ("M" "Remoting" magit-key-mode-popup-remoting) ("P" "Pushing" magit-key-mode-popup-pushing) ("o" "Submoduling" magit-key-mode-popup-submodule) ("r" "Rewriting" magit-key-mode-popup-rewriting) ("R" "Rebasing" magit-rebase-step) ("s" "Show Status" magit-status) ("S" "Stage all" magit-stage-all) ("t" "Tagging" magit-key-mode-popup-tagging) ("U" "Unstage all" magit-unstage-all) ("v" "Show Commit" magit-show-commit) ("V" "Show File" magit-show) ("w" "Wazzup" magit-wazzup) ("X" "Reset worktree" magit-reset-working-tree) ("y" "Cherry" magit-cherry) ("z" "Stashing" magit-key-mode-popup-stashing) ("!" "Running" magit-key-mode-popup-running) ("$" "Show Process" magit-display-process))) (logging (man-page "git-log") (actions ("l" "Short" magit-log) ("L" "Long" magit-log-long) ("h" "Head Reflog" magit-reflog-head) ("f" "File log" magit-file-log) ("rl" "Ranged short" magit-log-ranged) ("rL" "Ranged long" magit-log-long-ranged) ("rh" "Reflog" magit-reflog)) (switches ("-m" "Only merge commits" "--merges") ("-s" "No merge commits" "--no-merges") ("-do" "Date Order" "--date-order") ("-f" "First parent" "--first-parent") ("-i" "Case insensitive patterns" "-i") ("-pr" "Pickaxe regex" "--pickaxe-regex") ("-g" "Show Graph" "--graph") ("-n" "Name only" "--name-only") ("-am" "All match" "--all-match") ("-al" "All" "--all")) (arguments ("=r" "Relative" "--relative=" read-directory-name) ("=c" "Committer" "--committer=" read-from-minibuffer) ("=>" "Since" "--since=" read-from-minibuffer) ("=<" "Before" "--before=" read-from-minibuffer) ("=a" "Author" "--author=" read-from-minibuffer) ("=g" "Grep messages" "--grep=" read-from-minibuffer) ("=G" "Grep patches" "-G" read-from-minibuffer) ("=L" "Trace evolution of line range [long log only]" "-L" magit-read-file-trace) ("=s" "Pickaxe search" "-S" read-from-minibuffer) ("=b" "Branches" "--branches=" read-from-minibuffer) ("=R" "Remotes" "--remotes=" read-from-minibuffer))) (running (actions ("!" "Git Subcommand (from root)" magit-git-command-topdir) (":" "Git Subcommand (from pwd)" magit-git-command) ("g" "Git Gui" magit-run-git-gui) ("k" "Gitk" magit-run-gitk))) (fetching (man-page "git-fetch") (actions ("f" "Current" magit-fetch-current) ("a" "All" magit-remote-update) ("o" "Other" magit-fetch)) (switches ("-p" "Prune" "--prune"))) (pushing (man-page "git-push") (actions ("P" "Push" magit-push) ("t" "Push tags" magit-push-tags)) (switches ("-f" "Force" "--force") ("-d" "Dry run" "-n") ("-u" "Set upstream" "-u"))) (pulling (man-page "git-pull") (actions ("F" "Pull" magit-pull)) (switches ("-f" "Force" "--force") ("-r" "Rebase" "--rebase"))) (branching (man-page "git-branch") (actions ("v" "Branch manager" magit-branch-manager) ("b" "Checkout" magit-checkout) ("c" "Create" magit-create-branch) ("r" "Rename" magit-rename-branch) ("k" "Delete" magit-delete-branch)) (switches ("-t" "Set upstream configuration" "--track") ("-m" "Merged to HEAD" "--merged") ("-M" "Merged to master" "--merged=master") ("-n" "Not merged to HEAD" "--no-merged") ("-N" "Not merged to master" "--no-merged=master")) (arguments ("=c" "Contains" "--contains=" magit-read-rev-with-default) ("=m" "Merged" "--merged=" magit-read-rev-with-default) ("=n" "Not merged" "--no-merged=" magit-read-rev-with-default))) (remoting (man-page "git-remote") (actions ("v" "Remote manager" magit-branch-manager) ("a" "Add" magit-add-remote) ("r" "Rename" magit-rename-remote) ("k" "Remove" magit-remove-remote))) (tagging (man-page "git-tag") (actions ("t" "Create" magit-tag) ("k" "Delete" magit-delete-tag)) (switches ("-a" "Annotate" "--annotate") ("-f" "Force" "--force") ("-s" "Sign" "--sign"))) (stashing (man-page "git-stash") (actions ("v" "View" magit-diff-stash) ("z" "Save" magit-stash) ("s" "Snapshot" magit-stash-snapshot) ("a" "Apply" magit-stash-apply) ("p" "Pop" magit-stash-pop) ("k" "Drop" magit-stash-drop)) (switches ("-k" "Keep index" "--keep-index") ("-u" "Include untracked files" "--include-untracked") ("-a" "Include all files" "--all"))) (committing (man-page "git-commit") (actions ("c" "Commit" magit-commit) ("a" "Amend" magit-commit-amend) ("e" "Extend" magit-commit-extend) ("r" "Reword" magit-commit-reword) ("f" "Fixup" magit-commit-fixup) ("s" "Squash" magit-commit-squash)) (switches ("-a" "Stage all modified and deleted files" "--all") ("-e" "Allow empty commit" "--allow-empty") ("-v" "Show diff of changes to be committed" "--verbose") ("-n" "Bypass git hooks" "--no-verify") ("-s" "Add Signed-off-by line" "--signoff") ("-R" "Claim authorship and reset author date" "--reset-author")) (arguments ("=A" "Override the author" "--author=" read-from-minibuffer) ("=S" "Sign using gpg" "--gpg-sign=" magit-read-gpg-secret-key))) (merging (man-page "git-merge") (actions ("m" "Merge" magit-merge) ("A" "Abort" magit-merge-abort)) (switches ("-ff" "Fast-forward only" "--ff-only") ("-nf" "No fast-forward" "--no-ff") ("-sq" "Squash" "--squash")) (arguments ("-st" "Strategy" "--strategy=" read-from-minibuffer))) (rewriting (actions ("b" "Begin" magit-rewrite-start) ("s" "Stop" magit-rewrite-stop) ("a" "Abort" magit-rewrite-abort) ("f" "Finish" magit-rewrite-finish) ("d" "Diff pending" magit-rewrite-diff-pending) ("*" "Set unused" magit-rewrite-set-unused) ("." "Set used" magit-rewrite-set-used))) (apply-mailbox (man-page "git-am") (actions ("J" "Apply Mailbox" magit-apply-mailbox)) (switches ("-s" "add a Signed-off-by line to the commit message" "--signoff") ("-3" "allow fall back on 3way merging if needed" "--3way") ("-k" "pass -k flag to git-mailinfo" "--keep") ("-c" "strip everything before a scissors line" "--scissors") ("-p" "pass it through git-apply" "-p") ("-r" "override error message when patch failure occurs" "--resolvemsg") ("-d" "lie about committer date" "--committer-date-is-author-date") ("-D" "use current timestamp for author date" "--ignore-date") ("-b" "pass -b flag to git-mailinfo" "--keep-non-patch")) (arguments ("=p" "format the patch(es) are in" "--patch-format=" read-from-minibuffer))) (submodule (man-page "git-submodule") (actions ("u" "Update" magit-submodule-update) ("b" "Both update and init" magit-submodule-update-init) ("i" "Init" magit-submodule-init) ("s" "Sync" magit-submodule-sync))) (bisecting (man-page "git-bisect") (actions ("b" "Bad" magit-bisect-bad) ("g" "Good" magit-bisect-good) ("k" "Skip" magit-bisect-skip) ("r" "Reset" magit-bisect-reset) ("s" "Start" magit-bisect-start) ("u" "Run" magit-bisect-run))) (diff-options (actions ("s" "Set" magit-set-diff-options) ("d" "Set default" magit-set-default-diff-options) ("c" "Save default" magit-save-default-diff-options) ("r" "Reset to default" magit-reset-diff-options) ("h" "Toggle Hunk Refinement" magit-diff-toggle-refine-hunk)) (switches ("-m" "Show smallest possible diff" "--minimal") ("-p" "Use patience diff algorithm" "--patience") ("-h" "Use histogram diff algorithm" "--histogram") ("-b" "Ignore whitespace changes" "--ignore-space-change") ("-w" "Ignore all whitespace" "--ignore-all-space") ("-W" "Show surrounding functions" "--function-context")))) "\
@@ -2938,7 +2938,7 @@ to nil.")
 ;;;### (autoloads (turn-on-magit-stgit magit-stgit-mode magit-stgit-show
 ;;;;;;  magit-stgit-goto magit-stgit-discard magit-stgit-rebase magit-stgit-repair
 ;;;;;;  magit-stgit-refresh) "magit/magit-stgit" "magit/magit-stgit.el"
-;;;;;;  (21731 25102 729236 665000))
+;;;;;;  (21733 61807 902521 354000))
 ;;; Generated autoloads from magit/magit-stgit.el
 
 (autoload 'magit-stgit-refresh "magit/magit-stgit" "\
@@ -2988,8 +2988,8 @@ Unconditionally turn on `magit-stgit-mode'.
 ;;;### (autoloads (turn-on-magit-svn magit-svn-mode magit-svn-fetch-externals
 ;;;;;;  magit-svn-remote-update magit-svn-dcommit magit-svn-rebase
 ;;;;;;  magit-svn-create-tag magit-svn-create-branch magit-svn-find-rev)
-;;;;;;  "magit/magit-svn" "magit/magit-svn.el" (21731 25102 729236
-;;;;;;  665000))
+;;;;;;  "magit/magit-svn" "magit/magit-svn.el" (21733 61807 902521
+;;;;;;  354000))
 ;;; Generated autoloads from magit/magit-svn.el
 
 (autoload 'magit-svn-find-rev "magit/magit-svn" "\
@@ -3041,7 +3041,7 @@ Unconditionally turn on `magit-svn-mode'.
 ;;;***
 
 ;;;### (autoloads (turn-on-magit-topgit magit-topgit-mode) "magit/magit-topgit"
-;;;;;;  "magit/magit-topgit.el" (21731 25102 729236 665000))
+;;;;;;  "magit/magit-topgit.el" (21733 61807 902521 354000))
 ;;; Generated autoloads from magit/magit-topgit.el
 
 (autoload 'magit-topgit-mode "magit/magit-topgit" "\
@@ -3057,8 +3057,8 @@ Unconditionally turn on `magit-topgit-mode'.
 ;;;***
 
 ;;;### (autoloads (global-magit-wip-save-mode magit-wip-save-mode)
-;;;;;;  "magit/magit-wip" "magit/magit-wip.el" (21731 25102 729236
-;;;;;;  665000))
+;;;;;;  "magit/magit-wip" "magit/magit-wip.el" (21733 61807 902521
+;;;;;;  354000))
 ;;; Generated autoloads from magit/magit-wip.el
 
 (autoload 'magit-wip-save-mode "magit/magit-wip" "\
@@ -3094,7 +3094,7 @@ See `magit-wip-save-mode' for more information on Magit-Wip-Save mode.
 ;;;***
 
 ;;;### (autoloads (gfm-mode markdown-mode) "markdown-mode/markdown-mode"
-;;;;;;  "markdown-mode/markdown-mode.el" (21731 25105 41267 2000))
+;;;;;;  "markdown-mode/markdown-mode.el" (21733 61810 186551 123000))
 ;;; Generated autoloads from markdown-mode/markdown-mode.el
 
 (autoload 'markdown-mode "markdown-mode/markdown-mode" "\
@@ -3115,7 +3115,7 @@ Major mode for editing GitHub Flavored Markdown files.
 ;;;### (autoloads (paren-backward-sexp paren-forward-sexp paren-toggle-open-paren-context
 ;;;;;;  paren-toggle-matching-quoted-paren paren-toggle-matching-paired-delimiter
 ;;;;;;  paren-deactivate paren-activate) "mic-paren/mic-paren" "mic-paren/mic-paren.el"
-;;;;;;  (21731 25137 413691 773000))
+;;;;;;  (21733 62399 634098 784000))
 ;;; Generated autoloads from mic-paren/mic-paren.el
 
 (autoload 'paren-activate "mic-paren/mic-paren" "\
@@ -3195,7 +3195,7 @@ See `paren-match-quoted-paren'.
 ;;;***
 
 ;;;### (autoloads (pydoc-info-add-help) "pydoc-info/pydoc-info" "pydoc-info/pydoc-info.el"
-;;;;;;  (21731 25110 733341 689000))
+;;;;;;  (21733 61815 390618 926000))
 ;;; Generated autoloads from pydoc-info/pydoc-info.el
 
 (require 'info-look)
@@ -3215,63 +3215,8 @@ MORE-SPECS are additional or overriding values passed to
 
 ;;;***
 
-;;;### (autoloads (pymacs-apply pymacs-call pymacs-exec pymacs-eval
-;;;;;;  pymacs-autoload pymacs-load) "pymacs/pymacs" "pymacs/pymacs.el"
-;;;;;;  (21733 61506 922517 0))
-;;; Generated autoloads from pymacs/pymacs.el
-
-(autoload 'pymacs-load "pymacs/pymacs" "\
-Import the Python module named MODULE into Emacs.
-Each function in the Python module is made available as an Emacs function.
-The Lisp name of each function is the concatenation of PREFIX with
-the Python name, in which underlines are replaced by dashes.  If PREFIX is
-not given, it defaults to MODULE followed by a dash.
-If NOERROR is not nil, do not raise error when the module is not found.
-
-\(fn MODULE &optional PREFIX NOERROR)" t nil)
-
-(autoload 'pymacs-autoload "pymacs/pymacs" "\
-Pymacs's equivalent of the standard emacs facility `autoload'.
-Define FUNCTION to autoload from Python MODULE using PREFIX.
-If PREFIX is not given, it defaults to MODULE followed by a dash.
-Optional DOCSTRING documents FUNCTION until it gets loaded.
-INTERACTIVE is normally the argument to the function `interactive',
-t means `interactive' without arguments, nil means not interactive,
-which is the default.
-
-\(fn FUNCTION MODULE &optional PREFIX DOCSTRING INTERACTIVE)" nil nil)
-
-(autoload 'pymacs-eval "pymacs/pymacs" "\
-Compile TEXT as a Python expression, and return its value.
-
-\(fn TEXT)" t nil)
-
-(autoload 'pymacs-exec "pymacs/pymacs" "\
-Compile and execute TEXT as a sequence of Python statements.
-This functionality is experimental, and does not appear to be useful.
-
-\(fn TEXT)" t nil)
-
-(autoload 'pymacs-call "pymacs/pymacs" "\
-Return the result of calling a Python function FUNCTION over ARGUMENTS.
-FUNCTION is a string denoting the Python function, ARGUMENTS are separate
-Lisp expressions, one per argument.  Immutable Lisp constants are converted
-to Python equivalents, other structures are converted into Lisp handles.
-
-\(fn FUNCTION &rest ARGUMENTS)" nil nil)
-
-(autoload 'pymacs-apply "pymacs/pymacs" "\
-Return the result of calling a Python function FUNCTION over ARGUMENTS.
-FUNCTION is a string denoting the Python function, ARGUMENTS is a list of
-Lisp expressions.  Immutable Lisp constants are converted to Python
-equivalents, other structures are converted into Lisp handles.
-
-\(fn FUNCTION ARGUMENTS)" nil nil)
-
-;;;***
-
 ;;;### (autoloads (doctest-mode doctest-register-mmm-classes) "python-mode/test/doctest-mode"
-;;;;;;  "python-mode/test/doctest-mode.el" (21731 25123 745512 427000))
+;;;;;;  "python-mode/test/doctest-mode.el" (21733 61827 962782 567000))
 ;;; Generated autoloads from python-mode/test/doctest-mode.el
 
 (autoload 'doctest-register-mmm-classes "python-mode/test/doctest-mode" "\
@@ -3346,8 +3291,8 @@ treated differently:
 
 ;;;### (autoloads (global-rainbow-delimiters-mode rainbow-delimiters-mode-disable
 ;;;;;;  rainbow-delimiters-mode-enable rainbow-delimiters-mode) "rainbow-delimiters/rainbow-delimiters"
-;;;;;;  "rainbow-delimiters/rainbow-delimiters.el" (21731 25126 25542
-;;;;;;  344000))
+;;;;;;  "rainbow-delimiters/rainbow-delimiters.el" (21733 61829 994808
+;;;;;;  995000))
 ;;; Generated autoloads from rainbow-delimiters/rainbow-delimiters.el
 
 (autoload 'rainbow-delimiters-mode "rainbow-delimiters/rainbow-delimiters" "\
@@ -3389,7 +3334,7 @@ See `rainbow-delimiters-mode' for more information on Rainbow-Delimiters mode.
 ;;;***
 
 ;;;### (autoloads (scss-mode) "scss-mode/scss-mode" "scss-mode/scss-mode.el"
-;;;;;;  (21731 25130 377599 448000))
+;;;;;;  (21733 61833 846859 79000))
 ;;; Generated autoloads from scss-mode/scss-mode.el
 
 (autoload 'scss-mode "scss-mode/scss-mode" "\
@@ -3404,7 +3349,7 @@ Special commands:
 ;;;***
 
 ;;;### (autoloads (global-undo-tree-mode undo-tree-mode) "undo-tree/undo-tree"
-;;;;;;  "undo-tree/undo-tree.el" (21731 25132 905632 621000))
+;;;;;;  "undo-tree/undo-tree.el" (21733 61836 110888 505000))
 ;;; Generated autoloads from undo-tree/undo-tree.el
 
 (autoload 'undo-tree-mode "undo-tree/undo-tree" "\
@@ -3451,7 +3396,7 @@ See `undo-tree-mode' for more information on Undo-Tree mode.
 ;;;***
 
 ;;;### (autoloads (yas-global-mode yas-minor-mode) "yasnippet/yasnippet"
-;;;;;;  "yasnippet/yasnippet.el" (21733 60197 184357 560000))
+;;;;;;  "yasnippet/yasnippet.el" (21733 61841 838962 926000))
 ;;; Generated autoloads from yasnippet/yasnippet.el
 
 (autoload 'yas-minor-mode "yasnippet/yasnippet" "\
