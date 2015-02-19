@@ -55,7 +55,7 @@ See `auto-complete-mode' for more information on Auto-Complete mode.
 
 ;;;### (autoloads (cython-mode cython-default-compile-format cython)
 ;;;;;;  "cython-mode/cython-mode" "cython-mode/cython-mode.el" (21733
-;;;;;;  62399 534097 495000))
+;;;;;;  62669 505550 764000))
 ;;; Generated autoloads from cython-mode/cython-mode.el
 
 (add-to-list 'auto-mode-alist '("\\.pyx\\'" . cython-mode))
@@ -3115,7 +3115,7 @@ Major mode for editing GitHub Flavored Markdown files.
 ;;;### (autoloads (paren-backward-sexp paren-forward-sexp paren-toggle-open-paren-context
 ;;;;;;  paren-toggle-matching-quoted-paren paren-toggle-matching-paired-delimiter
 ;;;;;;  paren-deactivate paren-activate) "mic-paren/mic-paren" "mic-paren/mic-paren.el"
-;;;;;;  (21733 62399 634098 784000))
+;;;;;;  (21733 62669 593551 881000))
 ;;; Generated autoloads from mic-paren/mic-paren.el
 
 (autoload 'paren-activate "mic-paren/mic-paren" "\
