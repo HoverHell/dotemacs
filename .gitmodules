@@ -1,111 +1,111 @@
 [submodule ".emacs.d/el-get/auto-complete"]
-    path = .emacs.d/el-get/auto-complete
-    url = https://github.com/auto-complete/auto-complete.git
+	path = .emacs.d/el-get/auto-complete
+	url = https://github.com/auto-complete/auto-complete.git
 
 [submodule ".emacs.d/el-get/ctable"]
-    path = .emacs.d/el-get/ctable
-    url = https://github.com/kiwanami/emacs-ctable.git
+	path = .emacs.d/el-get/ctable
+	url = https://github.com/kiwanami/emacs-ctable.git
 
 [submodule ".emacs.d/el-get/deferred"]
-    path = .emacs.d/el-get/deferred
-    url = https://github.com/kiwanami/emacs-deferred.git
+	path = .emacs.d/el-get/deferred
+	url = https://github.com/kiwanami/emacs-deferred.git
 
 [submodule ".emacs.d/el-get/ein"]
-    path = .emacs.d/el-get/ein
-    url = https://github.com/tkf/emacs-ipython-notebook.git
+	path = .emacs.d/el-get/ein
+	url = https://github.com/tkf/emacs-ipython-notebook.git
 
 [submodule ".emacs.d/el-get/el-get"]
-    path = .emacs.d/el-get/el-get
-    url = https://github.com/dimitri/el-get.git
+	path = .emacs.d/el-get/el-get
+	url = https://github.com/dimitri/el-get.git
 
 [submodule ".emacs.d/el-get/epc"]
-    path = .emacs.d/el-get/epc
-    url = https://github.com/kiwanami/emacs-epc.git
+	path = .emacs.d/el-get/epc
+	url = https://github.com/kiwanami/emacs-epc.git
 
 [submodule ".emacs.d/el-get/flymake-cursor"]
-    path = .emacs.d/el-get/flymake-cursor
-    url = https://github.com/illusori/emacs-flymake-cursor.git
+	path = .emacs.d/el-get/flymake-cursor
+	url = https://github.com/illusori/emacs-flymake-cursor.git
 
 [submodule ".emacs.d/el-get/flymake"]
-    path = .emacs.d/el-get/flymake
-    url = https://github.com/illusori/emacs-flymake.git
+	path = .emacs.d/el-get/flymake
+	url = https://github.com/illusori/emacs-flymake.git
 
 [submodule ".emacs.d/el-get/fuzzy"]
-    path = .emacs.d/el-get/fuzzy
-    url = https://github.com/auto-complete/fuzzy-el.git
+	path = .emacs.d/el-get/fuzzy
+	url = https://github.com/auto-complete/fuzzy-el.git
 
 [submodule ".emacs.d/el-get/git-modes"]
-    path = .emacs.d/el-get/git-modes
-    url = https://github.com/magit/git-modes.git
+	path = .emacs.d/el-get/git-modes
+	url = https://github.com/magit/git-modes.git
 
 [submodule ".emacs.d/el-get/helm-descbinds"]
-    path = .emacs.d/el-get/helm-descbinds
-    url = https://github.com/emacs-helm/helm-descbinds.git
+	path = .emacs.d/el-get/helm-descbinds
+	url = https://github.com/emacs-helm/helm-descbinds.git
 
 [submodule ".emacs.d/el-get/helm"]
-    path = .emacs.d/el-get/helm
-    url = https://github.com/emacs-helm/helm.git
+	path = .emacs.d/el-get/helm
+	url = https://github.com/emacs-helm/helm.git
 
 [submodule ".emacs.d/el-get/highlight-parentheses"]
-    path = .emacs.d/el-get/highlight-parentheses
-    url = https://github.com/nschum/highlight-parentheses.el.git
+	path = .emacs.d/el-get/highlight-parentheses
+	url = https://github.com/nschum/highlight-parentheses.el.git
 
 [submodule ".emacs.d/el-get/jedi"]
-    path = .emacs.d/el-get/jedi
-    url = https://github.com/tkf/emacs-jedi.git
+	path = .emacs.d/el-get/jedi
+	url = https://github.com/tkf/emacs-jedi.git
 
 [submodule ".emacs.d/el-get/magit"]
-    path = .emacs.d/el-get/magit
-    url = https://github.com/magit/magit.git
+	path = .emacs.d/el-get/magit
+	url = https://github.com/magit/magit.git
 
 [submodule ".emacs.d/el-get/markdown-mode"]
-    path = .emacs.d/el-get/markdown-mode
-    url = git://jblevins.org/git/markdown-mode.git
+	path = .emacs.d/el-get/markdown-mode
+	url = git://jblevins.org/git/markdown-mode.git
 
 [submodule ".emacs.d/el-get/popup"]
-    path = .emacs.d/el-get/popup
-    url = https://github.com/auto-complete/popup-el.git
+	path = .emacs.d/el-get/popup
+	url = https://github.com/auto-complete/popup-el.git
 
 [submodule ".emacs.d/el-get/pydoc-info"]
-    path = .emacs.d/el-get/pydoc-info
-    url = https://github.com/emacsmirror/pydoc-info
+	path = .emacs.d/el-get/pydoc-info
+	url = https://github.com/emacsmirror/pydoc-info
 
 [submodule ".emacs.d/el-get/python-environment"]
-    path = .emacs.d/el-get/python-environment
-    url = https://github.com/tkf/emacs-python-environment.git
+	path = .emacs.d/el-get/python-environment
+	url = https://github.com/tkf/emacs-python-environment.git
 
 [submodule ".emacs.d/el-get/python-mode"]
-    path = .emacs.d/el-get/python-mode
-    url = https://github.com/emacsmirror/python-mode
+	path = .emacs.d/el-get/python-mode
+	url = https://github.com/emacsmirror/python-mode
 
 [submodule ".emacs.d/el-get/rainbow-delimiters"]
-    path = .emacs.d/el-get/rainbow-delimiters
-    url = https://github.com/jlr/rainbow-delimiters.git
+	path = .emacs.d/el-get/rainbow-delimiters
+	url = https://github.com/jlr/rainbow-delimiters.git
 
 [submodule ".emacs.d/el-get/request"]
-    path = .emacs.d/el-get/request
-    url = https://github.com/tkf/emacs-request.git
+	path = .emacs.d/el-get/request
+	url = https://github.com/tkf/emacs-request.git
 
 [submodule ".emacs.d/el-get/scss-mode"]
-    path = .emacs.d/el-get/scss-mode
-    url = https://github.com/antonj/scss-mode.git
+	path = .emacs.d/el-get/scss-mode
+	url = https://github.com/antonj/scss-mode.git
 
 [submodule ".emacs.d/el-get/undo-tree"]
-    path = .emacs.d/el-get/undo-tree
-    url = https://github.com/emacsmirror/undo-tree
+	path = .emacs.d/el-get/undo-tree
+	url = https://github.com/emacsmirror/undo-tree
 
 [submodule ".emacs.d/el-get/websocket"]
-    path = .emacs.d/el-get/websocket
-    url = https://github.com/ahyatt/emacs-websocket.git
+	path = .emacs.d/el-get/websocket
+	url = https://github.com/ahyatt/emacs-websocket.git
 
 [submodule ".emacs.d/jhamrick_emacs"]
-    path = .emacs.d/jhamrick_emacs
-    url = https://github.com/HoverHell/jhamrick-emacs-modified
+	path = .emacs.d/jhamrick_emacs
+	url = https://github.com/HoverHell/jhamrick-emacs-modified
 
 [submodule ".emacs.d/el-get/js2-mode"]
-    path = .emacs.d/el-get/js2-mode
-    url = https://github.com/mooz/js2-mode.git
+	path = .emacs.d/el-get/js2-mode
+	url = https://github.com/mooz/js2-mode.git
 
 [submodule ".emacs.d/el-get/yasnippet"]
-    path = .emacs.d/el-get/yasnippet
-    url = https://github.com/capitaomorte/yasnippet.git
+	path = .emacs.d/el-get/yasnippet
+	url = https://github.com/capitaomorte/yasnippet.git
