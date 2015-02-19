@@ -74,8 +74,6 @@
             (:name mic-paren :description "Advanced highlighting of matching parentheses." :type emacswiki))
  (popup status "installed" recipe
         (:name popup :website "https://github.com/auto-complete/popup-el" :description "Visual Popup Interface Library for Emacs" :type github :submodule nil :pkgname "auto-complete/popup-el"))
- (pycomplete+ status "installed" recipe
-              (:name pycomplete+ :auto-generated t :type emacswiki :description "complete symbols at point using Pymacs" :website "https://raw.github.com/emacsmirror/emacswiki.org/master/pycomplete+.el"))
  (pydoc-info status "installed" recipe
              (:name pydoc-info :description "Emacs package for searching Python documentation in Info" :website "https://bitbucket.org/jonwaltman/pydoc-info" :type hg :url "https://bitbucket.org/jonwaltman/pydoc-info"))
  (pymacs status "installed" recipe
