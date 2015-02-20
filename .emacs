@@ -170,11 +170,6 @@
 ;(global-set-key [(meta shift backspace)] 'redo)
 
 
-;; undo-tree - read the file for documentation.
-(require 'undo-tree)
-(global-undo-tree-mode)
-
-
 ;; ========== Set the fill column ==========
 (setq-default fill-column 78)
 
@@ -252,48 +247,9 @@
 (remove-hook 'find-file-hooks 'vc-find-file-hook)
 (eval-after-load "vc" '(remove-hook 'find-file-hooks 'vc-find-file-hook))
 
-
-;; Highlight parentheses
-(require 'highlight-parentheses)
-;; (require 'rainbow-delimiters) ;;;; XXX: tends to hang stuff
-;; (global-rainbow-delimiters-mode)
-;(add-hook 'highlight-parentheses-mode-hook
-;          '(lambda ()
-;             (setq autopair-handle-action-fns
-;                   (append
-;                    (if autopair-handle-action-fns
-;                        autopair-handle-action-fns
-;                        '(autopair-default-handle-action))
-;                    '((lambda (action pair pos-before)
-;                        (hl-paren-color-update)))))))
-;(define-globalized-minor-mode global-highlight-parentheses-mode
-;  highlight-parentheses-mode
-;  (lambda ()
-;    (highlight-parentheses-mode t)))
-;(global-highlight-parentheses-mode t)
-(setq hl-paren-colors
-      '(;"#8f8f8f" ; this comes from Zenburn
-                   ; and I guess I'll try to make the far-outer parens look like this
-        "orange1" "yellow1" "greenyellow" "green1"
-        "springgreen1" "cyan1" "slateblue1" "magenta1" "purple"))
-(show-paren-mode t)
-(setq show-paren-style 'expression)
-
-
-; (a(b(c(d(e(f(g(h(i(j(k(l(m((((()))))m)l)k)j)i)h)g)f)e)d)c)b)a)
-
-(load "~/.emacs.d/jhamrick_emacs/.emacs" nil t)
+(load (expand-file-name "jhamrick_emacs/.emacs" user-emacs-directory) nil t)
 (setq custom-file (expand-file-name "custom.el" user-emacs-directory))
 
-;; enhancements for displaying flymake errors
-(require 'flymake-cursor)
+(load (expand-file-name "submodules2.el" user-emacs-directory) nil t)
 
-;;(setq flymake-log-level 3)
-(setq-default flymake-no-changes-timeout '1)  ;; '3)
-;; (setq-default flymake-info-line-regexp "^([Ii]nfo|refactor)")
-;; (setq flymake-warn-line-regexp "^not [wW]arning")
-
-
-;; TODO: test
-;; https://github.com/emacsmirror/undo-tree
 (byte-recompile-directory (expand-file-name "~/.emacs.d") 0)
