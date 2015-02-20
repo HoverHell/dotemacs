@@ -109,3 +109,12 @@
 [submodule ".emacs.d/el-get/yasnippet"]
 	path = .emacs.d/el-get/yasnippet
 	url = https://github.com/capitaomorte/yasnippet.git
+[submodule ".emacs.d/el-get/coffee-mode"]
+	path = .emacs.d/el-get/coffee-mode
+	url = https://github.com/defunkt/coffee-mode.git
+[submodule ".emacs.d/el-get/flymake-coffee"]
+	path = .emacs.d/el-get/flymake-coffee
+	url = https://github.com/purcell/flymake-coffee.git
+[submodule ".emacs.d/el-get/flymake-easy"]
+	path = .emacs.d/el-get/flymake-easy
+	url = https://github.com/purcell/flymake-easy.git

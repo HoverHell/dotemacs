@@ -53,9 +53,30 @@ See `auto-complete-mode' for more information on Auto-Complete mode.
 
 ;;;***
 
+;;;### (autoloads (coffee-mode) "coffee-mode/coffee-mode" "coffee-mode/coffee-mode.el"
+;;;;;;  (21735 17338 987693 74000))
+;;; Generated autoloads from coffee-mode/coffee-mode.el
+
+(autoload 'coffee-mode "coffee-mode/coffee-mode" "\
+Major mode for editing CoffeeScript.
+
+\(fn)" t nil)
+
+(add-to-list 'auto-mode-alist '("\\.coffee\\'" . coffee-mode))
+
+(add-to-list 'auto-mode-alist '("\\.iced\\'" . coffee-mode))
+
+(add-to-list 'auto-mode-alist '("Cakefile\\'" . coffee-mode))
+
+(add-to-list 'auto-mode-alist '("\\.cson\\'" . coffee-mode))
+
+(add-to-list 'interpreter-mode-alist '("coffee" . coffee-mode))
+
+;;;***
+
 ;;;### (autoloads (cython-mode cython-default-compile-format cython)
-;;;;;;  "cython-mode/cython-mode" "cython-mode/cython-mode.el" (21733
-;;;;;;  62669 505550 764000))
+;;;;;;  "cython-mode/cython-mode" "cython-mode/cython-mode.el" (21735
+;;;;;;  17283 310953 880000))
 ;;; Generated autoloads from cython-mode/cython-mode.el
 
 (add-to-list 'auto-mode-alist '("\\.pyx\\'" . cython-mode))
@@ -3115,7 +3136,7 @@ Major mode for editing GitHub Flavored Markdown files.
 ;;;### (autoloads (paren-backward-sexp paren-forward-sexp paren-toggle-open-paren-context
 ;;;;;;  paren-toggle-matching-quoted-paren paren-toggle-matching-paired-delimiter
 ;;;;;;  paren-deactivate paren-activate) "mic-paren/mic-paren" "mic-paren/mic-paren.el"
-;;;;;;  (21733 62669 593551 881000))
+;;;;;;  (21735 17218 138088 396000))
 ;;; Generated autoloads from mic-paren/mic-paren.el
 
 (autoload 'paren-activate "mic-paren/mic-paren" "\
@@ -3435,6 +3456,11 @@ Yas minor mode is enabled in all buffers where
 See `yas-minor-mode' for more information on Yas minor mode.
 
 \(fn &optional ARG)" t nil)
+
+;;;***
+
+;;;### (autoloads nil nil ("autopep8/autopep8.el") (21735 17339 695942
+;;;;;;  593000))
 
 ;;;***
 
