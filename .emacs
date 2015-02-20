@@ -310,6 +310,7 @@
 ; (a(b(c(d(e(f(g(h(i(j(k(l(m((((()))))m)l)k)j)i)h)g)f)e)d)c)b)a)
 
 (load "~/.emacs.d/jhamrick_emacs/.emacs" nil t)
+(setq custom-file (expand-file-name "custom.el" user-emacs-directory))
 
 ;; enhancements for displaying flymake errors
 (require 'flymake-cursor)
