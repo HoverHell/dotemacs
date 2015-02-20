@@ -10,6 +10,9 @@
 ;; Might be needed, might be not needed:
 ;(add-to-list 'load-path (expand-file-name "~/.emacs.d/el-get/flymake"))
 
+; Do this at the beginning just in case
+(setq custom-file (expand-file-name "custom.el" user-emacs-directory))
+
 ;(defun mytst()
 ;  (interactive (let (string) (unless (mark) (error "The mark is not set now, so there is no region")) (setq string (read-shell-command "Shell command on region: ")) (list (region-beginning) (region-end) string current-prefix-arg current-prefix-arg shell-command-default-error-buffer t)))
 
@@ -107,7 +110,7 @@
 ;; or
 ; (defun set-newline-and-indent () (local-set-key (kbd "RET") 'newline-and-indent))
 ;; http://www.emacswiki.org/emacs/AutoIndentation
-
+(setq py-return-key (quote newline))
 
 ;; Remembering positions in files
 (setq save-place-file "~/.emacs.d/saveplace") ;; keep my ~/ clean
@@ -275,36 +278,6 @@
         "springgreen1" "cyan1" "slateblue1" "magenta1" "purple"))
 (show-paren-mode t)
 (setq show-paren-style 'expression)
-
-;; Theming, etc.
-(custom-set-variables
-  ;; custom-set-variables was added by Custom.
-  ;; If you edit it by hand, you could mess it up, so be careful.
-  ;; Your init file should contain only one such instance.
-  ;; If there is more than one, they won't work right.
- '(frame-background-mode (quote dark)))
-(custom-set-faces
-  ;; custom-set-faces was added by Custom.
-  ;; If you edit it by hand, you could mess it up, so be careful.
-  ;; Your init file should contain only one such instance.
-  ;; If there is more than one, they won't work right.
- '(font-lock-builtin-face ((((class color) (min-colors 88) (background dark)) (:foreground "#ffbb30" :weight bold))))
- '(font-lock-comment-face ((t (:foreground "green"))))
- '(font-lock-function-name-face ((((class color) (min-colors 88) (background dark)) (:foreground "#99ff99" :weight bold))))
- '(font-lock-keyword-face ((((class color) (min-colors 88) (background dark)) (:foreground "white" :weight bold))))
- '(font-lock-string-face ((((class color) (min-colors 88) (background dark)) (:foreground "cyan"))))
- '(rainbow-delimiters-depth-1-face ((((background dark)) (:background "#262626"))))
- '(rainbow-delimiters-depth-2-face ((((background dark)) (:background "#444444"))))
- '(rainbow-delimiters-depth-3-face ((((background dark)) (:background "#626262"))))
- '(rainbow-delimiters-depth-4-face ((((background dark)) (:background "#808080"))))
- '(rainbow-delimiters-depth-5-face ((((background dark)) (:background "#87005f"))))
- '(rainbow-delimiters-depth-6-face ((((background dark)) (:background "#875f5f"))))
- '(rainbow-delimiters-depth-7-face ((((background dark)) (:background "#8700d7"))))
- '(rainbow-delimiters-depth-8-face ((((background dark)) (:background "#875fff"))))
- '(rainbow-delimiters-unmatched-face ((((background dark)) (:foreground "#ee1122" :weight bold)))))
-
-;; Somehow, the setting above (or even in a custom theme defined here) does not work.
-(set-face-foreground 'font-lock-comment-face "#11dd11")
 
 
 ; (a(b(c(d(e(f(g(h(i(j(k(l(m((((()))))m)l)k)j)i)h)g)f)e)d)c)b)a)

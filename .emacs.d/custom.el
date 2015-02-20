@@ -5,7 +5,8 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(flymake-info-line-regexp "^\\([Ii]nfo\\|refactor\\|F[0-9]+\\)")
- '(frame-background-mode (quote dark)))
+ '(frame-background-mode (quote dark))
+ '(py-return-key (quote newline)))
 
 ; color theme
 ;(add-to-list 'custom-theme-load-path (make-plugin-path "color-theme-solarized"))
