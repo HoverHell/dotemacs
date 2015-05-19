@@ -12,7 +12,7 @@
 repodir="$(dirname "$(readlink -e "$0")")"  ## One folder above
 cd "$repodir/"
 echo "Assuming the repo is in $(pwd)"
-home="$HOME/"
+home="$(readlink -e "$HOME")/"
 reporel="$(echo "$repodir" | sed -rn "s!^$home/*!! p" )" 
 [ -z "$reporel" ] && {
   echo "repodir '$repodir' is not under home '$home'. Aborting."
