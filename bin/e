@@ -2,5 +2,6 @@
 ## A short-hand for "edit", let's say.
 #if which emacs; then ename="emacs"; else ename="jmacs"; fi
 #$ename "$@"
-exec emacsclient --alternate-editor="" -t "$@"
+#exec emacsclient "$@"
 #exec emacs "$@"
+exec ec "$@"
